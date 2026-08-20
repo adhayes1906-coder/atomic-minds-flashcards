@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Flip through the scientists, philosophers, models, and discoveries that shaped atomic theory."
+    />
+    <title>Chemistry: Unit 1.2 | Atomic Theory Flash Cards</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="study-shell">
+      <div class="ambient ambient--one" aria-hidden="true"></div>
+      <div class="ambient ambient--two" aria-hidden="true"></div>
+
+      <header class="site-header">
+        <a class="brand" href="#study-card" aria-label="Chemistry: Unit 1.2 home">
+          <span class="brand-mark" aria-hidden="true"><span></span></span>
+          <span>Chemistry: Unit 1.2</span>
+        </a>
+        <p class="course-label">Atomic Theory Timeline</p>
+      </header>
+
+      <section class="hero" aria-labelledby="page-title">
+        <div class="hero-copy">
+          <p class="eyebrow">Study deck • 8 cards</p>
+          <h1 id="page-title">Meet the minds that <em>shaped the atom.</em></h1>
+          <p class="intro">
+            Read the name, make your best guess, then flip the card to reveal
+            the model, discovery, and theory.
+          </p>
+        </div>
+
+        <div class="study-area">
+          <div class="card-status" aria-live="polite" aria-atomic="true">
+            <span id="card-count">Card 01 / 08</span>
+            <span class="side-label" id="side-label">Question</span>
+          </div>
+
+          <div class="card-stage">
+            <button
+              id="study-card"
+              type="button"
+              class="flashcard flashcard--coral"
+              aria-pressed="false"
+              aria-label="Show answer for Democritus"
+            >
+              <span class="flashcard-inner">
+                <span class="card-face card-front">
+                  <span class="card-topline">
+                    <span id="card-role">Philosopher</span>
+                    <span id="card-year">450 B.C.</span>
+                  </span>
+
+                  <span class="atomic-art atomic-art--democritus" aria-hidden="true">
+                    <span class="atom-orbit atom-orbit--one"></span>
+                    <span class="atom-orbit atom-orbit--two"></span>
+                    <span class="atom-orbit atom-orbit--three"></span>
+                    <span class="atom-core"></span>
+                    <span class="atom-electron atom-electron--one"></span>
+                    <span class="atom-electron atom-electron--two"></span>
+                    <span class="atom-electron atom-electron--three"></span>
+                    <span class="atom-electron atom-electron--four"></span>
+                    <span class="atom-piece atom-piece--one"></span>
+                    <span class="atom-piece atom-piece--two"></span>
+                    <span class="atom-piece atom-piece--three"></span>
+                  </span>
+
+                  <span class="name-wrap">
+                    <span class="prompt">Who am I?</span>
+                    <strong class="scientist-name" id="card-name">Democritus</strong>
+                  </span>
+
+                  <span class="flip-hint">
+                    <span class="flip-symbol" aria-hidden="true">↻</span>
+                    Tap to reveal
+                  </span>
+                </span>
+
+                <span class="card-face card-back">
+                  <span class="answer-kicker">The answer</span>
+                  <span class="model-name" id="card-model">The idea of “atomos”</span>
+                  <strong class="discovery" id="card-discovery">
+                    Matter is made of indivisible pieces
+                  </strong>
+                  <span class="rule" aria-hidden="true"></span>
+                  <span class="theory-copy" id="card-theory">
+                    Matter could not be divided into smaller pieces forever.
+                    Democritus called the smallest pieces “atomos,” meaning indivisible.
+                  </span>
+                  <span class="detail-list" id="card-details"></span>
+
+                  <span class="flip-hint flip-hint--back">
+                    <span class="flip-symbol" aria-hidden="true">↻</span>
+                    Tap to see name
+                  </span>
+                </span>
+              </span>
+            </button>
+          </div>
+
+          <nav class="card-controls" aria-label="Flash card controls">
+            <button class="nav-button" id="previous-card" type="button">
+              <span aria-hidden="true" class="arrow arrow--left">→</span>
+              <span>Previous</span>
+            </button>
+
+            <div class="progress-dots" id="progress-dots" aria-label="Choose a card"></div>
+
+            <button class="nav-button nav-button--next" id="next-card" type="button">
+              <span>Next</span>
+              <span aria-hidden="true" class="arrow arrow--right">→</span>
+            </button>
+          </nav>
+
+          <p class="keyboard-tip" id="keyboard-tip">
+            <span aria-hidden="true">Space</span> to flip •
+            <span aria-hidden="true">← →</span> to move
+          </p>
+        </div>
+      </section>
+
+      <footer>
+        <p>Built for curious minds.</p>
+        <p>Keep guessing. Keep discovering.</p>
+      </footer>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
